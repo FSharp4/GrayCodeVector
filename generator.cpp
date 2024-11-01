@@ -88,7 +88,7 @@ int main(const int argc, char* argv[]) {
     // Small off-by-one handler: the last code needs to have its most significant bit set to 0.
     codes[vecLen - 1][nVar - 1] = false;
     // Then we can print it
-    std::cout << vecLen;
+    std::cout << vecLen - 1;
     for (int b = 0; b < nVar; b++) {
         std::cout << " " << codes[vecLen - 1][b];
     }

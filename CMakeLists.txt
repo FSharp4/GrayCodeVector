@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 include_directories(.)
 
-add_executable(GreyCodeVector
+add_executable(GrayCodeVector
     generator.cpp
     generator.h)
